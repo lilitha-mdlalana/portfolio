@@ -1,4 +1,5 @@
 <script setup>
+
 const projects = [
   {
     id: 1,
@@ -78,7 +79,9 @@ const projects = [
               innomdlalana@gmail.com
             </a>
           </div>
-          <div class="flex items-center">
+          <div
+            class="flex items-center"
+          >
             <nav
               class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden"
             >
@@ -89,11 +92,6 @@ const projects = [
                 About
               </a>
             </nav>
-            <button class="lg:hidden flex flex-col ml-4">
-              <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1"> </span>
-              <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1"> </span>
-              <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1"> </span>
-            </button>
           </div>
         </div>
       </header>
@@ -123,7 +121,8 @@ const projects = [
                 CONNECT WITH ME
               </a>
               <a
-                href="https://linkedin.com/in/lilitha-mdlalana"
+                download
+                href="/files/lilitha-mdlalana-cv.pdf"
                 class="mx-1 uppercase py-2 my-2 px-4 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"
               >
                 RESUME
