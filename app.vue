@@ -1,5 +1,4 @@
 <script setup>
-
 const projects = [
   {
     id: 1,
@@ -31,6 +30,25 @@ const projects = [
     liveSiteLink: "https://sneaker-link.netlify.app/",
     githubLink: "https://github.com/lilitha-mdlalana/sneaker-link",
   },
+  {
+    id: 4,
+    imagePath: "/images/projects/weather-app.png",
+    projectName: "Weather App",
+    projectStack: "Nuxt 3 & OpenWeatherMap API",
+    projectDescription: "A simple weather app with effective error handling",
+    liveSiteLink: "https://capable-frangipane-f15694.netlify.app/",
+    githubLink: "https://github.com/lilitha-mdlalana/weather-app",
+  },
+  {
+    id: 6,
+    imagePath: "/images/projects/tg-careers.png",
+    projectName: "TotalGeek Careers (Google Careers Clone)",
+    projectStack: "Vue, Vue Router, Vuex, Axios",
+    projectDescription:
+      "Google Careers clone using Vue. Frontend completed still building out the API with some dummy jobs",
+    liveSiteLink: "https://totalgeek-careers.netlify.app/#/",
+    githubLink: "https://github.com/lilitha-mdlalana/vue_job_search",
+  },
 ];
 </script>
 
@@ -39,6 +57,7 @@ const projects = [
     <Head>
       <Title>Lilitha Mdlalana - Profile</Title>
       <Link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      <Link rel="canonical" href="https://lilitha-mdlalana.netlify.app" />
     </Head>
     <section
       class="dark:bg-gray-800 font-mono bg-white relative overflow-hidden"
@@ -79,9 +98,7 @@ const projects = [
               innomdlalana@gmail.com
             </a>
           </div>
-          <div
-            class="flex items-center"
-          >
+          <div class="flex items-center">
             <nav
               class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden"
             >
@@ -105,25 +122,25 @@ const projects = [
               src="/images/person/personality-icon.png"
               class="rounded-full w-28 mx-auto"
             />
-            <p class="text-3xl my-6 text-center dark:text-white">
+            <p class="font-poppins text-3xl my-6 text-center dark:text-white">
               Hi, I&#x27;m Lilitha 🤘
             </p>
             <h2
-              class="max-w-3xl text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center py-2"
+              class="font-poppins max-w-3xl text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center py-2"
             >
-              Front-end web developer with a focus on Vue.js
+              Front-end web developer with a love for all things JavaScript
             </h2>
             <div class="flex items-center justify-center mt-4">
               <a
                 href="https://linkedin.com/in/lilitha-mdlalana"
-                class="mx-1 uppercase py-2 my-2 px-4 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"
+                class="font-lato mx-1 uppercase py-2 my-2 px-4 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"
               >
                 CONNECT WITH ME
               </a>
               <a
                 download
                 href="/files/lilitha-mdlalana-cv.pdf"
-                class="mx-1 uppercase py-2 my-2 px-4 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"
+                class="font-lato mx-1 uppercase py-2 my-2 px-4 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"
               >
                 RESUME
               </a>
@@ -133,7 +150,7 @@ const projects = [
       </div>
     </section>
     <section id="projects" class="mt-6">
-      <h1 class="text-3xl font-bold text-center">Projects</h1>
+      <h1 class="text-5xl font-bold text-center font-poppins">Projects</h1>
       <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <ProjectCard
           v-for="project in projects"
@@ -163,25 +180,27 @@ const projects = [
 
             <div class="lg:py-24">
               <h2
-                class="max-w-3xl text-5xl md:text-6xl font-bold mx-auto text-gray-800 py-2"
+                class="font-poppins max-w-3xl text-5xl md:text-6xl font-bold mx-auto text-gray-800 py-2"
               >
                 Hi, I'm Lilitha 👨‍💻
               </h2>
 
-              <p class="mt-4 text-gray-600">
+              <p class="font-lato mt-4 text-gray-600">
                 I'm a skilled and creative web developer based in Cape Town,
                 South Africa. I build and design user-friendly websites and
                 applications, while also keeping accessabilty in mind.
               </p>
-              <p class="mt-4 text-gray-600">
-                I have been programming since I was 13 years old. I started out
-                by building games using Python and PyGame for my friends and I.
+              <p class="font-lato mt-4 text-gray-600">
+                I have been programming for 4 years now. I started out by
+                building games using Python and PyGame for my friends and I.
                 Later, I began making building websites for my friends and local
-                companies in my area.
+                companies in my area. I'm looking to challenge myself
+                professionally in the software development industry.
               </p>
-              <p class="mt-4 text-gray-600">
+              <p class="font-lato mt-4 text-gray-600">
                 Some of my skills include: HTML/CSS, JavaScript, Vue, Nuxt,
-                Pinia and Webflow. I am always up for learning something new!
+                Pinia, Webflow and Supabase as my BaaS of choice. I am always down to learn something new,
+                especially if it's tech related. 🤓
               </p>
             </div>
           </div>
@@ -257,14 +276,3 @@ const projects = [
     </footer>
   </main>
 </template>
-<style>
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.4s;
-}
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
-  filter: blur(1rem);
-}
-</style>

@@ -16,14 +16,14 @@ defineProps({
     <img alt="Office" :src="imagePath" class="h-56 w-full object-cover" />
 
     <div class="p-6">
-      <h5 class="text-xl font-bold">
+      <h5 class="text-xl font-bold font-poppins">
         {{ projectName }}
       </h5>
-      <p class="mt-2 text-sm text-gray-500">
-        <span class="font-bold">STACK:</span> {{ projectStack }}
+      <p class="mt-2 text-md text-gray-500 font-lato">
+        <span class="font-bold font-poppins">STACK:</span> {{ projectStack }}
       </p>
-      <p class="mt-2 text-sm text-gray-500">
-        <span class="font-bold">DESCRIPTION:</span>{{ projectDescription }}
+      <p class="mt-2 text-md text-gray-500">
+        <span class="font-bold font-poppins">DESCRIPTION:</span>{{ projectDescription }}
       </p>
 
       <a
