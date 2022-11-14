@@ -30,25 +30,6 @@ const projects = [
     liveSiteLink: "https://sneaker-link.netlify.app/",
     githubLink: "https://github.com/lilitha-mdlalana/sneaker-link",
   },
-  {
-    id: 4,
-    imagePath: "/images/projects/weather-app.png",
-    projectName: "Weather App",
-    projectStack: "Nuxt 3 & OpenWeatherMap API",
-    projectDescription: "A simple weather app with effective error handling",
-    liveSiteLink: "https://capable-frangipane-f15694.netlify.app/",
-    githubLink: "https://github.com/lilitha-mdlalana/weather-app",
-  },
-  {
-    id: 6,
-    imagePath: "/images/projects/tg-careers.png",
-    projectName: "TotalGeek Careers (Google Careers Clone)",
-    projectStack: "Vue, Vue Router, Vuex, Axios",
-    projectDescription:
-      "Google Careers clone using Vue. Frontend completed still building out the API with some dummy jobs",
-    liveSiteLink: "https://totalgeek-careers.netlify.app/#/",
-    githubLink: "https://github.com/lilitha-mdlalana/vue_job_search",
-  },
 ];
 </script>
 
