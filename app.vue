@@ -12,23 +12,23 @@ const projects = [
   },
   {
     id: 2,
-    imagePath: "/images/projects/appy.jpg",
-    projectName: "Appypot",
-    projectStack: "TailwindCSS,Nuxt 3 and ButterCMS",
+    imagePath: "/images/projects/job-finder.png",
+    projectName: "JobFinder",
+    projectStack: "Bootstrap,Nuxt 3 and Remotive API",
     projectDescription:
-      "A self-platform landing page for small business owners to grow their business. The landing page includes a blog feature that utilises a headless CMS as it's backend.",
-    liveSiteLink: "https://appypot.netlify.app/",
-    githubLink: "https://github.com/lilitha-mdlalana/appypot-cms-landing-page",
+      "Job listing website that fetches job from the Remotive API and renders them in a simple interface.",
+    liveSiteLink: "https://job-finder-6118.netlify.app/",
+    githubLink: "https://github.com/lilitha-mdlalana/nuxt-jobs",
   },
   {
     id: 3,
-    imagePath: "/images/projects/sneaker-link.jpg",
-    projectName: "SneakerLink w/ API ( IN PROGRESS )",
-    projectStack: "BulmaCSS, Nuxt 3 and Pinia",
+    imagePath: "/images/projects/chat-app.png",
+    projectName: "ChatApp",
+    projectStack: "TailwindCSS,Nuxt 3, TypeScript and Supabase",
     projectDescription:
-      "SneakerLink is a product listing website that fetches products from an API and renders them. With a simple interface, the site allow users to add items to cart and checkout in seconds.",
-    liveSiteLink: "https://sneaker-link.netlify.app/",
-    githubLink: "https://github.com/lilitha-mdlalana/sneaker-link",
+      "Group chat application with user signup,authentication, email verification and chat with the data stored in a Postgres database.",
+    liveSiteLink: "https://chat-app-6118.netlify.app/",
+    githubLink: "https://github.com/lilitha-mdlalana/Chatapp",
   },
 ];
 </script>
@@ -109,7 +109,8 @@ const projects = [
             <h2
               class="font-poppins max-w-3xl text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center py-2"
             >
-              Front-end web developer with a love for all things JavaScript
+              Front-end web developer with a love for building quality web
+              applications.
             </h2>
             <div class="flex items-center justify-center mt-4">
               <a
@@ -130,21 +131,6 @@ const projects = [
         </div>
       </div>
     </section>
-    <section id="projects" class="mt-6">
-      <h1 class="text-5xl font-bold text-center font-poppins">Projects</h1>
-      <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <ProjectCard
-          v-for="project in projects"
-          :key="project.id"
-          :image-path="project.imagePath"
-          :project-name="project.projectName"
-          :project-stack="project.projectStack"
-          :project-description="project.projectDescription"
-          :live-link="project.liveSiteLink"
-          :github-link="project.githubLink"
-        />
-      </div>
-    </section>
     <section id="about">
       <section>
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -163,28 +149,52 @@ const projects = [
               <h2
                 class="font-poppins max-w-3xl text-5xl md:text-6xl font-bold mx-auto text-gray-800 py-2"
               >
-                Hi, I'm Lilitha 👨‍💻
+                About Me 👨‍💻
               </h2>
 
               <p class="font-lato mt-4 text-gray-600">
-                I'm a skilled and creative web developer based in Cape Town,
-                South Africa. I build and design user-friendly websites and
-                applications, while also keeping accessabilty in mind.
+                As a self-taught developer, I have a strong passion for
+                constantly learning and improving my skills in the field. I have
+                spent countless hours studying, experimenting, and building
+                projects on my own to gain a deep understanding of various
+                programming languages and technologies.
               </p>
               <p class="font-lato mt-4 text-gray-600">
-                I have been programming for 4 years now. I started out by
-                building games using Python and PyGame for my friends and I.
-                Later, I began making building websites for my friends and local
-                companies in my area. I'm looking to challenge myself
-                professionally in the software development industry.
+                I have experience in a variety of languages including Python,
+                and JavaScript, and have worked on projects ranging from simple
+                landing pages to full-stack web applications. I am always
+                looking for new challenges and opportunities to further hone my
+                skills and expand my knowledge.
               </p>
               <p class="font-lato mt-4 text-gray-600">
-                Some of my skills include: HTML/CSS, JavaScript, Vue, Nuxt,
-                Pinia, Webflow and Supabase as my BaaS of choice. I am always down to learn something new,
-                especially if it's tech related. 🤓
+                In addition to my technical abilities, I am a strong problem
+                solver and critical thinker, with the ability to approach
+                complex problems in a systematic and logical manner. I am also
+                highly self-motivated, and thrive in both independent and
+                team-based environments.
+              </p>
+              <p class="font-lato mt-4 text-gray-600">
+                Overall, I am a dedicated and driven individual, eager to use my
+                skills and passion for development to create impactful and
+                innovative solutions.
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      <section id="projects" class="mt-6">
+        <h1 class="text-5xl font-bold text-center font-poppins">Projects</h1>
+        <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ProjectCard
+            v-for="project in projects"
+            :key="project.id"
+            :image-path="project.imagePath"
+            :project-name="project.projectName"
+            :project-stack="project.projectStack"
+            :project-description="project.projectDescription"
+            :live-link="project.liveSiteLink"
+            :github-link="project.githubLink"
+          />
         </div>
       </section>
     </section>
