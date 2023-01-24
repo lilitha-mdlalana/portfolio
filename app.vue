@@ -107,10 +107,9 @@ const projects = [
               Hi, I&#x27;m Lilitha 🤘
             </p>
             <h2
-              class="font-poppins max-w-3xl text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center py-2"
+              class="font-poppins text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center py-2"
             >
-              Front-end web developer with a love for building quality web
-              applications.
+              Passionate web developer with a love for building high quality applications using JavaScript.
             </h2>
             <div class="flex items-center justify-center mt-4">
               <a
@@ -119,13 +118,7 @@ const projects = [
               >
                 CONNECT WITH ME
               </a>
-              <a
-                download
-                href="/files/lilitha-mdlalana-cv.pdf"
-                class="font-lato mx-1 uppercase py-2 my-2 px-4 md:mt-16 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"
-              >
-                RESUME
-              </a>
+              
             </div>
           </div>
         </div>
@@ -153,7 +146,7 @@ const projects = [
               </h2>
 
               <p class="font-lato mt-4 text-gray-600">
-                As a self-taught developer, I have a strong passion for
+                As a web developer, I have a strong passion for
                 constantly learning and improving my skills in the field. I have
                 spent countless hours studying, experimenting, and building
                 projects on my own to gain a deep understanding of various
@@ -244,7 +237,7 @@ const projects = [
 
             <a
               class="text-pink-600 hover:text-pink-600/75"
-              href="https://linkedin.com/lilitha-mdlalana/"
+              href="https://linkedin.com/in/lilitha-mdlalana"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
