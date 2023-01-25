@@ -16,7 +16,7 @@ const projects = [
     projectName: "JobFinder",
     projectStack: "Bootstrap,Nuxt 3 and Remotive API",
     projectDescription:
-      "Job listing website that fetches job from the Remotive API and renders them in a simple interface.",
+      " Job listing website that fetches job from the Remotive API and renders them in a simple interface.",
     liveSiteLink: "https://job-finder-6118.netlify.app/",
     githubLink: "https://github.com/lilitha-mdlalana/nuxt-jobs",
   },
@@ -26,11 +26,12 @@ const projects = [
     projectName: "ChatApp",
     projectStack: "TailwindCSS,Nuxt 3, TypeScript and Supabase",
     projectDescription:
-      "Group chat application with user signup,authentication, email verification and chat with the data stored in a Postgres database.",
+      " Group chat application, fully functional with user sign-up,authentication, email verification and chat data stored in a Postgres database.",
     liveSiteLink: "https://chat-app-6118.netlify.app/",
     githubLink: "https://github.com/lilitha-mdlalana/Chatapp",
   },
 ];
+const currentYear = new Date().getFullYear()
 </script>
 
 <template>
@@ -254,7 +255,7 @@ const projects = [
               </svg>
             </a>
           </div>
-          <p>&copy; 2022 Lilitha Mdlalana</p>
+          <p>&copy; {{ currentYear }} Lilitha Mdlalana</p>
         </div>
       </div>
     </footer>
