@@ -31,13 +31,13 @@ const projects = [
     githubLink: "https://github.com/lilitha-mdlalana/Chatapp",
   },
 ];
-const currentYear = new Date().getFullYear()
+const currentYear = new Date().getFullYear();
 </script>
 
 <template>
   <main>
     <Head>
-      <Title>Lilitha Mdlalana - Profile</Title>
+      <Title>Lilitha Mdlalana | Developer </Title>
       <Link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <Link rel="canonical" href="https://lilitha-mdlalana.netlify.app" />
     </Head>
@@ -110,7 +110,8 @@ const currentYear = new Date().getFullYear()
             <h2
               class="font-poppins text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center py-2"
             >
-              Passionate web developer with a love for building high quality applications using JavaScript.
+              Passionate web developer with a love for building high quality
+              applications using JavaScript.
             </h2>
             <div class="flex items-center justify-center mt-4">
               <a
@@ -119,7 +120,6 @@ const currentYear = new Date().getFullYear()
               >
                 CONNECT WITH ME
               </a>
-              
             </div>
           </div>
         </div>
@@ -147,30 +147,20 @@ const currentYear = new Date().getFullYear()
               </h2>
 
               <p class="font-lato mt-4 text-gray-600">
-                As a web developer, I have a strong passion for
-                constantly learning and improving my skills in the field. I have
-                spent countless hours studying, experimenting, and building
-                projects on my own to gain a deep understanding of various
-                programming languages and technologies.
+                As a web developer, I have a passion for constantly improving my
+                skills and learning new things. I've worked with several
+                programming languages, including Python and JavaScript, and have
+                tackled projects from simple landing pages to full-stack web
+                apps. I love a challenge and always strive to expand my
+                knowledge.
               </p>
               <p class="font-lato mt-4 text-gray-600">
-                I have experience in a variety of languages including Python,
-                and JavaScript, and have worked on projects ranging from simple
-                landing pages to full-stack web applications. I am always
-                looking for new challenges and opportunities to further hone my
-                skills and expand my knowledge.
+                I'm not just tech-savvy, I also have a strong problem-solving
+                skills and an analytical mind. I work well independently or in a
+                team and always aim to create innovative solutions.
               </p>
               <p class="font-lato mt-4 text-gray-600">
-                In addition to my technical abilities, I am a strong problem
-                solver and critical thinker, with the ability to approach
-                complex problems in a systematic and logical manner. I am also
-                highly self-motivated, and thrive in both independent and
-                team-based environments.
-              </p>
-              <p class="font-lato mt-4 text-gray-600">
-                Overall, I am a dedicated and driven individual, eager to use my
-                skills and passion for development to create impactful and
-                innovative solutions.
+                In short, I'm a driven developer ready to make an impact
               </p>
             </div>
           </div>
